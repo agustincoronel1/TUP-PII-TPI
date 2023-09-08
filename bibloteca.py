@@ -15,12 +15,8 @@ def ejemplares_prestados():
     return None
 
 def registrar_nuevo_libro():
-    print("nuevo_libro")
     nuevo_libro = l.nuevo_libro()
     libros.append(nuevo_libro)
-    print(nuevo_libro)
-    print("nuevo_libro")
-    print(libros)
     return nuevo_libro
 
 def eliminar_ejemplar_libro():
